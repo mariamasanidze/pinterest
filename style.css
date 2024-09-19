@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+img{
+    width: 100%;
+} 
+
+.main-container{
+    width: 1470px;
+    margin: 0 auto;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.mainlogo {
+    width: 24px;
+    height: 24px;
+}
+.Nav-lists{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 30px;
+}
+
+section{
+    width: 1500px;
+    margin: 0 auto;
+}
+.inspiration {
+    display: flex;
+    gap: 15px;
+   margin-top: 30px;
+   width: 300px;
+   height: 350px;
+   border-radius: 10px;
+   
+}
