@@ -1,43 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <title>Pinterest</title>
-    <link rel="icon" type="image/png" href="./images/Pinterest.svg.png">
-</head>
-<body>
-    
-    <header class="main-container">
-        <div class="navbar">
-            <img class="mainlogo" src="./images/Pinterest.svg.png" alt="Pinterest Logo">
-            <div class="searchbar">
-                <input type="search" placeholder="Search" >
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="./style.css">
+      <title>Pinterest</title>
+      <link rel="icon" type="image/png" href="./images/Pinterest.svg.png">
+   </head>
+   <body>
+      <header class="main-container">
+         <div class="navbar">
+            <div class="nav-left">
+               <img class="mainlogo" src="./images/Pinterest.svg.png" alt="Pinterest Logo">
+               <ul class="nav-lists-left">
+                  <li class="button"><a href="https://www.pinterest.com/">Home</a></li>
+                  <li><a href="https://www.pinterest.com/pin-creation-tool/">Create</a></li>
+               </ul>
             </div>
-           
-            <nav>
-                <ul class="Nav-lists">
-                    <li>Home</li>
-                    <li>Create</li>
-                    <li>Notifications</li>
-                    <li>Messages</li>
-                    <li>My Profile</li>
-                </ul>
-            </nav>
-        </div>
-     </header>
-     <section>
-        <div class="inspiration">
-            <img src="./images/house.jpg" alt="">
-            <img src="./images/bookshop.jpg" alt="">
-            <img src="./images/cinnamon rolls.jpg" alt="">
-            <img src="./images/field.jpg"x.ht alt="">
-            <img src="./images/lilies.jpg" alt="">
-            <img src="./images/city.jpg" alt="">
-        </div>
-     </section>
-</body>
+            <div class="searchbar">
+               <input type="search" placeholder="Search">
+            </div>
+            <div class="nav-right">
+               <ul class="nav-lists-right">
+                  <li>Notifications</li>
+                  <li>Messages</li>
+                  <li>My Profile</li>
+               </ul>
+            </div>
+         </div>
+      </header>
+      <section class="tablesection">
+         <div class="table-wrapper">
+            <table>
+               <tr>
+                  <th class="nailinspo"><a href="https://www.pinterest.com/search/pins/?q=nail%20inspo&rs=typed">Nail designs</a></th>
+                  <th class="naturepics"><a href="https://www.pinterest.com/search/pins/?rs=ac&len=2&q=nature%20photography&eq=nature&etslf=5795">Nature photography</a></th>
+               </tr>
+               <tr>
+                  <th class="couplegoals"><a href="https://www.pinterest.com/search/pins/?q=Couple+gifts&rs=typed&filters=skin_color_bucket_id%3A1">Couple gifts</a></th>
+                  <th class="conversation"><a href="https://www.pinterest.com/search/pins/?q=Deep%20conversation%20topics&rs=typed">Deep conversation topics</a></th>
+               </tr>
+            </table>
+            <table class="middletable">
+               <tr>
+                  <th class="journaling"><a href="https://www.pinterest.com/search/pins/?q=Journal%20prompts&rs=typed">Journal prompts</a></th>
+                  <th class="fashion"><a href="https://www.pinterest.com/search/pins/?q=Fashion%20outfits&rs=typed">Fashion outfits</a></th>
+               </tr>
+               <tr>
+                  <th class="homedecor"><a href="https://www.pinterest.com/search/pins/?q=Home%20inspiration&rs=typed">Home inspiration</a></th>
+                  <th class="accessories"><a href="https://www.pinterest.com/search/pins/?q=Jewelry&rs=typed">Jewelry</a></th>
+               </tr>
+            </table>
+            <table>
+               <tr>
+                  <th class="fallfashion"><a href="https://www.pinterest.com/search/pins/?rs=ac&len=2&q=autumn%20outfits&eq=Autumn%20outfits&etslf=3805">Autumn outfits</a></th>
+                  <th class="looks"><a href="https://www.pinterest.com/search/pins/?q=Beauty%20and%20Skincare&rs=typed">Beauty and Skincare</a></th>
+               </tr>
+               <tr>
+                  <th class="travelling"><a href="https://www.pinterest.com/search/pins/?q=Travel&rs=typed">Travel</a></th>
+                  <th class="food"><a href="https://www.pinterest.com/search/pins/?q=Food%20and%20Recipes&rs=typed">Food and Recipes</a></th>
+               </tr>
+            </table>
+         </div>
+      </section>
+      <section class="photosection">
+         <div class="inspiration">
+            <img class="photo1" src="./images/house.jpg" alt="House">
+            <img class="photo2" src="./images/bookshop.jpg" alt="Bookshop">
+            <img class="photo3" src="./images/cinnamon rolls.jpg" alt="Cinnamon Rolls">
+            <img class="photo4" src="./images/motivational wallpaper2.jpg" alt="Motivational Wallpaper">
+            <img class="photo5" src="./images/rainy day.jpg" alt="Rainy Day">
+            <img class="photo6" src="./images/city.jpg" alt="City">
+         </div>
+      </section>
+   </body>
 </html>
-
-

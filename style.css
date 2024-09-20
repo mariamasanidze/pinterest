@@ -1,42 +1,247 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+	margin: 0;
+	padding: 0;
 }
-img{
-    width: 100%;
-} 
 
-.main-container{
-    width: 1470px;
-    margin: 0 auto;
+img {
+	width: 100%;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+/* Main Container */
+.main-container {
+	width: 1470px;
+	margin: 0 auto;
+}
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px 20px;
+	background-color: white;
+	border-radius: 8px;
 
 }
-.navbar{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30px;
+
+.nav-left,
+.nav-right {
+	display: flex;
+	align-items: center;
 }
+
+.nav-lists-left,
+.nav-lists-right {
+	list-style: none;
+	display: flex;
+	gap: 15px;
+}
+
+.nav-lists-left li,
+.nav-lists-right li {
+	display: inline;
+}
+
+.nav-lists-left li a,
+.nav-lists-right li {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+	font-size: 20px;
+}
+
 .mainlogo {
-    width: 24px;
-    height: 24px;
-}
-.Nav-lists{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    gap: 30px;
+	height: 40px;
+	margin-right: 20px;
 }
 
-section{
-    width: 1500px;
-    margin: 0 auto;
+/*.button{
+    padding: 20px 30px;
+    background-color: #f0f0f0;
+    color: black;
+    
+    border-radius: 30px;
+    cursor: pointer;
+    
 }
+.button:active{
+    background-color: black;
+    color: white; 
+}
+*/
+
+/* the search bar */
+.searchbar {
+	flex-grow: 1;
+	text-align: center;
+}
+
+.searchbar input {
+	width: 90%;
+	height: 50px;
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+}
+
+
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 100px;
+}
+
+.table-wrapper {
+	display: flex;
+	gap: 70px;
+	margin: 20px 0;
+}
+
+table {
+	width: 30%;
+	text-align: center;
+}
+
+/* Table Items */
+.nailinspo,
+.naturepics,
+.couplegoals,
+.conversation {
+	width: 200px;
+	height: 80px;
+	font-size: 20px;
+	padding-top: 5px;
+	text-align: center;
+	border-radius: 10px;
+	background-size: cover;
+}
+
+.nailinspo {
+	background-image: url(./images/nude\ nails.png);
+}
+
+.naturepics {
+	background-image: url(./images/seaside.png);
+}
+
+.couplegoals {
+	background-image: url(./images/couple.png);
+}
+
+.conversation {
+	background-image: url(./images/background.png);
+}
+
+.journaling,
+.fashion,
+.homedecor,
+.accessories {
+	justify-items: center;
+	width: 200px;
+	height: 80px;
+	font-size: 20px;
+	padding-top: 5px;
+	text-align: center;
+	border-radius: 10px;
+	background-size: cover;
+}
+
+.journaling {
+	background-image: url(./images/journal.png);
+}
+
+.fashion {
+	background-image: url(./images/fashion.png);
+}
+
+.homedecor {
+	background-image: url(./images/decor.png);
+}
+
+.accessories {
+	background-image: url(./images/jewelry.png);
+}
+
+/* Section Layout */
+section {
+	width: 1500px;
+	margin: 0 auto;
+}
+
+.fallfashion,
+.looks,
+.travelling,
+.food {
+	justify-items: center;
+	width: 200px;
+	height: 80px;
+	font-size: 20px;
+	padding-top: 5px;
+	text-align: center;
+	border-radius: 10px;
+	background-size: cover;
+}
+
+.fallfashion {
+	background-image: url(./images/falloutfit.png);
+}
+
+.looks {
+	background-image: url(./images/skincare.png);
+}
+
+.travelling {
+	background-image: url(./images/travelling.png);
+}
+
+.food {
+	background-image: url(./images/xinkali.png);
+}
+
+/* the last Section */
 .inspiration {
-    display: flex;
-    gap: 15px;
-   margin-top: 30px;
-   width: 300px;
-   height: 350px;
-   border-radius: 10px;
-   
+	display: flex;
+	gap: 15px;
+	margin-top: 30px;
+}
+
+
+.photo1,
+.photo2,
+.photo3,
+.photo4,
+.photo5,
+.photo6 {
+	border-radius: 8px;
+}
+
+.photo1,
+.photo4 {
+	width: 300px;
+	height: 350px;
+}
+
+.photo2,
+.photo5 {
+	width: 280px;
+	height: 300px;
+}
+
+.photo3 {
+	width: 290px;
+	height: 340px;
+}
+
+.photo6 {
+	width: 290px;
+	height: 310px;
 }
